@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
-   <head>
-      <!-- basic -->
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- mobile metas -->
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <!-- site metas -->
-      <title>MUSEO DEL HOMBRE</title>
-      <meta name="keywords" content="">
+	<link rel="stylesheet" type="text/css" href="estiloslibro.css">
+
+	<title>Libro de visitas</title>
+	<meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
       <!-- bootstrap css -->
@@ -25,12 +25,19 @@
       <!-- Tweaks for older IEs-->
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-      <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-   </head>
-   <!-- body -->
-   <body class="main-layout in_page">
+	<style type="text/css">
+
+table{
+width: 100%;
+}
+td{
+border: 6ypx solid black;
+}
+
+
+</style>
+</head>
+<body class="main-layout">
       <!-- loader  -->
       <div class="loader_bg">
          <div class="loader"><img src="images/QI.gif" alt="#"/></div>
@@ -58,10 +65,10 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarsExample04">
                            <ul class="navbar-nav mr-auto">
-                              <li class="nav-item ">
+                              <li class="nav-item active">
                                  <a class="nav-link" href="index.html">INICIO</a>
                               </li>
-                             
+                           
                               <li class="nav-item">
                                  <a class="nav-link" href="service.html">HORARIO E ACTIVIDADES</a>
                               </li>
@@ -69,11 +76,12 @@
                                  <a class="nav-link" href="gallery.html">GALERIA</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="testimonial.html"> ENTREVISTAS
-                                     </a>
+                                 <a class="nav-link" href="testimonial.html"> ENTREVISTAS </a>
                               </li>
-                              <li class="nav-item active">
-                                 <a class="nav-link" href="contact.html">DATOS</a>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="contact.html">DATOS
+                                 
+                                 </a>
                               </li>
                            </ul>
                         </div>
@@ -83,53 +91,144 @@
             </div>
          </div>
       </header>
-      <!-- end header inner -->
-      <!-- end header -->
-      <!--  contact -->
-      <div class="contact">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage">
-                     <h2>DATOS DE CONTACTO Y MAPS</h2>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-6">
-                  <form id="request" class="main_form">
-                     <div class="row">
-                        <div class="col-md-12 ">
-                           <input class="contactus" placeholder="Nombre" type="type" name="Name"> 
-                        </div>
-                        <div class="col-md-12">
-                           <input class="contactus" placeholder="Email" type="type" name="Email"> 
-                        </div>
-                        <div class="col-md-12">
-                           <input class="contactus" placeholder=" Numero de Telefono" type="type" name="Phone Number">                          
-                        </div>
-                        <div class="col-md-12">
-                           <textarea class="textarea" placeholder="Opinion" type="type" Message="Name">Opinion</textarea>
-                        </div>
-                        <div class="col-md-12">
-                           <button class="send_btn">Enviar</button>
-                        </div>
-                     </div>
-                  </form>
-               </div>
-               <div class="col-md-6">
-                  <div class="map_main">
-                     <div class="map-responsive">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3758.3130827799414!2d-98.94993062433596!3d19.613908381704597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ee96088f3291%3A0xb83657df4a58dca1!2sMuseo%20del%20Hombre%20de%20Tepexpan!5e0!3m2!1ses-419!2smx!4v1685627765163!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- end contact -->
-      <!--  footer -->
-      <footer>
+
+	
+<H1><div class="animacion">
+	<div class="let">L</div>
+	<div class="let">I</div>
+	<div class="let">B</div>
+	<div class="let">R</div>
+	<div class="let">O</div>
+			<div class="let">-</div>
+		<div class="let">D</div>
+		<div class="let">E</div>
+			<div class="let">-</div>
+				<div class="let">V</div>
+				<div class="let">I</div>
+				<div class="let">S</div>
+				<div class="let">I</div>
+				<div class="let">T</div>
+				<div class="let">A</div>
+				<div class="let">S</div>
+
+</div></H1>
+
+<form action="operacion_guardar.php" method="POST"><fieldset>
+	<center><legend><H1><div class="animacion">
+	<div class="let">B</div>
+	<div class="let">I</div>
+	<div class="let">E</div>
+	<div class="let">N</div>
+	<div class="let">V</div>
+	<div class="let">E</div>
+	<div class="let">N</div>
+	<div class="let">I</div>
+	<div class="let">D</div>
+	<div class="let">O</div>
+	<div class="let">S</div>
+
+</div></H1></legend></center>
+<div><aside>
+	
+	<<iframe width="460" height="260" src="https://www.youtube.com/embed/lqyuyrxevj8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	<h3>creador del video: Artent vayan a seguirlo :D</h3>
+</aside>
+	<i><label class="la">Nombres:</label>
+	<input type="text" id="nom" placeholder="Escribe tu nombre" value=""/><br></i>
+	</div>
+	<div>
+	<i><label class="la">Municipio:</label>
+	<i><input type="text" id="mu" placeholder="Escribe tu Municipio" value=""/><br></i>
+	</div>
+	<div>
+	<i><label class="la">Poblacion:</label>
+	<i><input type="text" id="pob" placeholder="indica tu Poblacion" value=""/><br></i>
+	</div>
+	<div>
+	<i><label class="la">Edad:</label>
+	<input type="text" id="edad" placeholder="indica tu Edad" value=""/><br></i>
+	</div>
+	<div>
+	<i><label class="la">Sexo:</label>
+	<input type="text" id="sex" placeholder="indica tu Sexo" value=""/><br></i>
+	</div>
+	<div>
+<br>
+<input type="submit" value="REGISTRAR DATOS" />
+
+</div></from>
+<form>
+	<h1><div class="let">Selecciona lo que mas te gusto:</div></h1>
+	<table border =0>
+
+
+<table>
+<tr>
+
+<th><div class="imagen"><img src="images/sala.jpg"width ="120" height="150"></div></th>
+<th><div class="imagen"><img src="images/u.jpg"width ="120" height="150"></div></th>
+<th><div class="imagen"><img src="images/fos.jpg"width ="120" height="150"></div></th>
+<th><div class="imagen"><img src="images/0.jpg"width ="120" height="150"></div></th>
+<th><div class="imagen"><img src="images/ey.jpg "width ="120" height="150"></div></th>
+</tr>	
+        <tr>
+   <th><i><input type="checkbox" id="uno" value="CRANEO FEMENINO">LA SALA DEL MUSEO<br></i></th>
+        <th><i><input type="checkbox" id="dos" value="CRANEO MASCULINO">EL CRANEO MASCULINO<br></i></th>
+        <th><i><input type="checkbox" id="tres" value="HUESOS DE MAMUT">LOS HUESOS DE MAMUT<br></i></th>
+        <th><i><input type="checkbox" id="cuatro" value="EL ESQUELETO HUMANO">EL MAPA CON UBICACIONES<br></i></th>
+        <th><i><input type="checkbox" id="cinco" value="EL MAPA DONDE TIENE TODAS LAS UBICACIONES">EL CRANEO FEMENINO<br></i></th>
+             </tr>
+
+</table>
+		
+	
+  
+<input type="button" onclick="pri()" value="REGISTRAR TU VISITA" >
+
+		<input type="reset" name="Eliminar datos" value="ELIMINAR DATOS"/>
+	</fieldset>
+</form>
+<script >
+
+	function seg(){
+
+
+		var n=document.getElementById('nom').value;
+		 var m=document.getElementById('mu').value;
+		 var p=document.getElementById('pob').value;
+		 var e=document.getElementById('edad').value;
+		 var s=document.getElementById('sex').value;
+		 var eme=document.getElementById('em').value;
+
+		alert('Tu nombre es:'+n );
+		alert('Tu municipio es:'+m);
+		alert('Tu poblacion es:'+p);
+		alert('Tu edad es:'+e);
+		alert('Tu sexo es:'+s);
+		alert('Tu correo electromico es:'+ame);
+	}
+	function pri(){
+		var sala="";
+		
+
+		if (document.getElementById('uno').checked) {
+			sala=sala+'La sala del museo';
+		}
+		if (document.getElementById('dos').checked) {
+			sala=sala+' El craneo masculino';
+		}
+		if (document.getElementById('tres').checked) {
+			sala=sala+' Los huesos de mamut';
+		}
+		if (document.getElementById('cuatro').checked) {
+			sala=sala+' El mapa de las ubicaciones';
+		}
+		if (document.getElementById('cinco').checked) {
+			sala=sala+' El craneo femenino';
+		}
+		alert('Tus opciones favotitas fueron:'+sala);
+	}
+</script><footer> 
          <div class="footer">
             <div class="container">
                <div class="row">
@@ -180,10 +279,7 @@
 
                      </p>
                   </div>
-                  <div class="col-md-6 offset-md-6">
-                     <form id="hkh" class="bottom_form">
-                        <input class="enter" placeholder="Introduce tu correo electronico" type="text" name="Enter your email">
-                        <button class="sub_btn">suscribete</button>
+                  
                      </form>
                   </div>
                </div>
@@ -193,13 +289,6 @@
                   <div class="row">
                      <div class="col-md-10 offset-md-1">
                         <p>© 2023 pagina en Visual Studio Code <a href="https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1002"> del Museo de Tepexpan.</a></p>
-                        <script>
-                        
-                           var d = new Date();
-                           document.write('Fecha: '+(d.getDate()),'/'+(d.getMonth()+1),'/ '+d.getFullYear(),)
-                           document.write('<br>Hora: '+d.getHours(),': '+d.getMinutes(),': '+d.getSeconds());
-                           </script>
-                          
                      </div>
                   </div>
                </div>
@@ -215,4 +304,7 @@
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
    </body>
+</html>
+
+</body>
 </html>
